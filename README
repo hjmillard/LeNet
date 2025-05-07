@@ -1,0 +1,11 @@
+Created by Hayden Millard
+MLLHAY008
+23/04/2024
+
+classifier.py is a Neural Network implemented using the Pytorch framework. It learns from the MNIST10 dataset, which should be saved in the same directory as the program.
+
+To run the program enter: python classifier.py
+
+The program will begin running and will prompt the user for images after having completed training.
+
+You can then enter the path to the image to predict the number in an image or 'exit' to terminate the program.
