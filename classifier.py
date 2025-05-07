@@ -80,6 +80,7 @@ if __name__ == '__main__':
             log_file.write(f'Final Validation Accuracy: {max_accuracy.item():.4f}')
             break
     log_file.close()
+    torch.save(CNN.state_dict(), 'model_state.pt')
     CNN.load_state_dict(best_model)
     CNN.eval()
     
